@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marla to Square Foot and Square Foot to Marla Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marla and Square Foot Conversion</h1>
+        <label for="value">Enter Value:</label>
+        <input type="number" id="value" step="0.01" placeholder="Enter Value" required>
+        
+        <label for="conversionType">Choose Conversion Type:</label>
+        <select id="conversionType">
+            <option value="marlaToSquareFoot">Marla to Square Foot</option>
+            <option value="squareFootToMarla">Square Foot to Marla</option>
+        </select>
+        
+        <button onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="script.mjs"></script>
+</body>
+</html>
